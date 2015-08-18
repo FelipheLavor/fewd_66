@@ -1,0 +1,37 @@
+body {
+	color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: 18px;
+    margin:0;	
+}
+
+h1 {
+	font-family: "PFDinTextCompProBold", Impact, Arial;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: black;
+    line-height: 0.9;
+    margin: 1rem 0;
+}
+
+.banner {
+	background-color: #333;
+	color:white;
+	width:100%;
+	margin:0;
+	padding:20px;
+}
+
+.wrap {
+	background-color: #f7cf00;
+	margin:0;
+	padding:20px;
+}
+
+header, footer {
+	background-color: #333;
+	color:white;
+	width:100%;
+	margin:0;
+	padding:20px;
+}
