@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Feliphe Lavor</title>	
+	<link rel="stylesheet" href="resume.css">
+</head>
+<body>
+			
+	<header>
+
+	<h1 class="logo">Feliphe Lavor</h1>
+
+	<div class="nav">
+		<ul>
+		  <li><strong>Resume</strong></li>
+		  <li><a href="portfolio.html">Portfolio</a></li>
+		  <li><a href="blog.html">Blog</a></li>
+		</ul>
+	</div>
+
+	</header>
+
+	<section>
+
+	<div class="box">
+
+	<h2>Intro</h2>
+
+	<p class="medium-style">UX/Strategy. Working today for <a href="http://www.hugeinc.com" target="_blank">HUGE</a>. Based in NYC. </p>
+
+		
+			<h2>Professional Experience</h2>
+
+			<ul>
+				<li>2011 - Today: UX Director | HUGE</li>
+				<li>2010 - 2011: Senior Information Architecture | ANS</li>
+				<li>2007 - 2010: Busines Consultant | Calandra</li>
+				<li>2005 - 2007: Marketing Coordinator | Brazilian Conteporary Arts London</li>
+			</ul>
+
+
+		<h2>Education</h2>
+
+		<ul>
+			<li>MBA: Management | Ibmec</li>
+			<li>Post-Degree: Usability and Information Architecture | PUC Rio</li>
+			<li>Bachelor's Degree: Industrial Engineering | UFRJ BR</li>
+		</ul>
+
+		<h2>Contact</h2>
+
+		<ul>
+			<li>+1 (347) 301 9590</li>
+			<li>mail @ feliphe . com</li>
+			<li><a href="#">Portfolio</a></li>
+		</ul>
+		
+		<h2>My city</h2>
+		
+		<br>
+
+		<img style="max-width: 767px;" src="images/offset_comp_136477.jpg">
+
+		<br>
+
+		<div class="note">
+
+		<script>
+
+		/*
+		Count down until any date script-
+		By JavaScript Kit (www.javascriptkit.com)
+		Over 200+ free scripts here!
+		*/
+
+
+		//change the text below to reflect your own,
+		var before=" to get there."
+		var current="Today is Valentines day. Don\'t forget the flowers!"
+		var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+		function countdown(yr,m,d){
+		var today=new Date()
+		var todayy=today.getYear()
+		if (todayy < 1000)
+		todayy+=1900
+		var todaym=today.getMonth()
+		var todayd=today.getDate()
+		var todaystring=montharray[todaym]+" "+todayd+", "+todayy
+		var futurestring=montharray[m-1]+" "+d+", "+yr
+		var difference=(Math.round((Date.parse(futurestring)-Date.parse(todaystring))/(24*60*60*1000))*1)
+		if (difference==0)
+		document.write(current)
+		else if (difference>0)
+		document.write(+difference+" days "+before)
+		}
+		//enter the count down date using the format year/month/day
+		countdown(2016,3,28)
+		</script>
+
+		</div>
+
+
+	</div>
+	</section>
+
+<br><br>
+
+
+</body>
+</html>

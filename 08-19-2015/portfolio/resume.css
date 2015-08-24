@@ -1,0 +1,164 @@
+body {
+  background-color:#ffffff;
+  font-size: 100%;	
+  margin: 0 auto;
+  padding:0;
+  max-width: 767px;
+  width: 90%;
+}
+
+@media only screen and (max-width: 400px) {
+                    body { font-size:90%;}
+     }
+
+
+a {
+    color: #04ADF2;
+    text-decoration: underline;	
+}
+
+a:hover{
+	color:#cccccc;
+  text-decoration: underline;
+}
+
+
+header{
+	margin-bottom: 20px;
+}
+
+.logo {
+	font-family: helvetica, sans-serif;	
+	font-size: 3.5em;
+	margin-top: 80px;
+
+}
+
+.image_portifa{
+	max-width: 600px;
+}
+
+.nav {
+	margin: -20px 0 30px 0;
+}
+
+.nav ul{
+	font-family: helvetica, arial;
+	font-size: 14px;	
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li{
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+
+.nav a:link {
+    color: #04ADF2;
+}
+
+/* visited link */
+.nav a:visited {
+    font-weight: bold;	
+}
+
+/* mouse over link */
+.nav a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+/* selected link */
+.nav a:active {
+    font-weight: bold;
+}
+
+
+.box h2 {
+  margin-top: 60px;  
+  border-bottom: 1px solid #000000;
+  color:#999999;	
+	font-family: helvetica, arial;
+	font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+	line-height:1.5;
+	text-transform: uppercase;
+}
+
+
+.box ul,p {
+	font-family: georgia, serif;	
+	font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .01rem;
+	line-height:1.5;
+  list-style-type: circle;	
+}
+
+.note {
+  color:#999999;
+	font-family: helvetica, arial;
+	font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+	line-height:1.5;
+	margin-top: 10px;
+}
+
+.case {
+  overflow: auto;     
+  width: 100%;
+  border-top: solid 1px #000000;
+  padding: 10px 0 10px 0; 
+  margin-top: 60px;
+}
+
+
+.case_box_left {
+  max-width: 470px; 
+  float: left;
+  margin-right:20px;
+}
+
+.case_box_left h2 {
+  font-family: helvetica, arial;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 5px 0 -10px 0;
+}
+
+.case_box_left h3 {
+  font-family: georgia, serif;  
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .01rem;
+}
+
+.case_box_left p {
+  font-size: 1.0em;
+}
+
+.case_box_right {  
+  width: 275px;
+  height:200px;   
+  position: relative;    
+  overflow:hidden; 
+  background-color:#FFFFFF;
+  margin: 10px auto 10px auto;
+}
+
+.case_box_right img{
+  position:absolute;
+  top:0;
+  left:0; 
+}
