@@ -1,0 +1,224 @@
+/* two-column */
+
+body {
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+.list{
+	margin:40px;
+}
+
+.two-column-header{
+	height:160px;
+	background-color: #A6A6A6;	
+	color:#A6A6A6;	
+}
+
+.two-column-container{
+	background-color: #5D5D5D;	
+	color:#5D5D5D;	
+	width:70%;
+	float:left;
+	height:500px;
+}
+
+
+.two-column-aside{
+	background-color: #BFBFBF;
+	color:#BFBFBF;	
+	float:left;
+	height:500px;
+	width:30%;	
+}
+
+.two-column-footer{
+	clear: both;
+	height:150px;
+	background-color: #A6A6A6;	
+	color:#A6A6A6;
+}
+
+/* three-column */
+
+.three-column-left{
+	background-color: #BFBFBF;	
+	color:#BFBFBF;	
+	float:left;
+	height:500px;
+	width:20%;	
+}
+
+.three-column-container{
+	background-color: #5D5D5D;		
+	color:#5D5D5D;
+	float:left;	
+	width:60%;
+	height:500px;
+}
+
+.three-column-right{
+	background-color: #BFBFBF;
+	color:#BFBFBF;		
+	float:left;
+	height:500px;
+	width:20%;	
+}
+
+/* simple marketing */
+
+.mkt-two-column{
+	float:left;
+	height:350px;
+	width:50%;	
+}
+
+.mkt-two-column.color1{
+	background-color: #BFBFBF;	
+	color:#BFBFBF;
+}
+
+.mkt-two-column.color2{
+	background-color: #CCCCCC;	
+	color:#CCCCCC;	
+}
+
+.mkt-three-column{
+	float:left;	
+	width:33.33%;
+	height:150px;		
+}
+
+.mkt-three-column.color1{
+	clear:left;
+	background-color: #515151;	
+	color:#515151;		
+}
+
+.mkt-three-column.color2{
+	background-color: #858585;	
+	color:#858585;	
+}
+
+.mkt-three-column.color3{
+	background-color: #666666;	
+	color:#666666;	
+}
+
+/* marketing with nav */
+
+.mkt-header{
+	height:160px;
+	background-color: #f5f5f5;	
+}
+
+.logo{
+	float:left;
+	height:100px;
+	width:220px;
+	background-color: #3F3F3F;
+	color:#3F3F3F;
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	margin-left: 40px;	
+}
+
+.nav {
+	float:right;
+  	list-style-type: none;		
+   	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	margin-right: 20px;	 	
+}
+
+li {
+	display: block;
+ 	margin-right: 20px;
+ 	background-color:#666666;
+ 	color:#666666;
+ 	height:80px;
+ 	width:140px;
+ 	float:left;
+}
+
+.mkt-one-column{
+	float:left;
+	height:350px;
+	width:100%;
+	background-color: #BFBFBF;	
+	color:#BFBFBF;		
+}
+
+/* magazine */
+
+.left{
+	background-color: #5D5D5D;	
+	color:#5D5D5D;	
+	width:20%;
+	float:left;
+	height:500px;
+}
+
+.right{
+	float:right;
+	width: 80%;
+}
+
+.mag-one-column{
+	float:left;
+	height:150px;
+	width:100%;
+	background-color: #BFBFBF;	
+	color:#BFBFBF;		
+}
+
+
+.mag-two-column-container{
+	background-color: #f5f5f5;		
+	color:#f5f5f5;	
+	width:75%;
+	float:left;
+	height:200px;
+}
+
+
+.mag-two-column-aside{
+	background-color:#959595;
+	color:#959595;
+	float:left;
+	height:200px;
+	width:25%;	
+}
+
+
+.mag-four-column{
+	float:left;	
+	width:25%;
+	height:150px;		
+}
+
+.mag-four-column.color1{
+	clear:left;
+	background-color: #515151;	
+	color:#515151;		
+}
+
+.mag-four-column.color2{
+	background-color: #858585;	
+	color:#858585;	
+}
+
+.mag-four-column.color3{
+	background-color: #666666;	
+	color:#666666;	
+}
+
+.mag-four-column.color4{
+	background-color: #515151;	
+	color:#515151;	
+}
+
+
