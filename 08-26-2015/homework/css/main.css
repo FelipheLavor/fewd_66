@@ -221,4 +221,42 @@ li {
 	color:#515151;	
 }
 
+/* simple marketing 2 */
+
+.header{
+	height:160px;
+}
+
+.top {
+	clear:left;
+}
+
+.top .left2, 
+.top .right{
+	float:left;
+	height:350px;
+	width: 50%;
+	box-sizing:border-box;			
+}
+
+.bottom{
+	clear:left;
+}
+
+.bottom .third{
+	width: 33.33%;
+	float: left;
+	box-sizing:border-box;
+	height:150px;	
+}
+
+.footer{
+	clear: both;
+	height:150px;
+}
+
+.box{
+	background-color: #cecece;
+	border: 1px solid gray;
+}
 

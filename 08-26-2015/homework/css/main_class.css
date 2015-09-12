@@ -1,0 +1,84 @@
+/* simple marketing 2 */
+body{
+	padding:30px;
+}
+
+.header{
+	height:160px;
+}
+
+.top {
+	clear:left;
+}
+
+.left, .right{
+	float:left;
+	height:350px;
+	width: 50%;
+	box-sizing:border-box;			
+}
+
+.bottom{
+	clear:left;
+}
+
+.third{
+	width: 31.7%;
+	box-sizing:border-box;
+	height:150px;	
+}
+
+.third .left{
+	float:left;
+	margin-right: 21px;	
+}
+
+.third .right{
+	float:right;
+}
+
+.footer{
+	margin-top: 20px;
+	clear: both;
+	height:150px;
+	float: left;
+	width: 100%;
+}
+
+.box{
+	background-color: #cecece;
+	border: 1px solid grey;
+}
+
+/* marketing with nav 2 */
+
+
+.logo{
+	float:left;
+	height:100px;
+	width:220px;
+	margin-top:26px;
+}
+
+.nav {
+	float:right;
+  	list-style-type: none;
+  	margin-top:40px;		
+  }
+
+li {
+	display: block;
+ 	margin-left: 20px;
+ 	background-color:#cecece;
+ 	height:80px;
+ 	width:140px;
+ 	float:left;
+}
+
+.topmkt {
+	clear:left;
+	height:350px;
+	width: 100%;
+	box-sizing:border-box;	
+	margin-bottom: 20px;		
+}

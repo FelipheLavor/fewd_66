@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flex Layout: Two Column</title>
+	<style>
+
+		* {
+			font-family: helvetica,sans-serif;
+			letter-spacing: -0.5px;
+			box-sizing:border-box;		
+		}
+		
+		header,
+		footer {
+			width: 100%;
+			height: 160px;
+			margin: 15px 0;
+		}
+
+		.box {
+			background-color: #cecece;
+			padding: 10px;
+			border: 1px solid #777777;	
+			text-transform: uppercase;						
+		}
+		
+		main {
+			display: flex;
+			justify-content:space-between;
+			height: 300px;
+		}
+
+		main section{
+			width: calc(70% - 10px);			
+		}
+
+		main aside {
+			width: calc(30% - 10px);
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>Flex Layout: Two Column</h1>
+
+	<header class="box">
+		Header
+	</header>
+
+	<main>
+		<section class="box">
+			Section
+		</section>
+		<aside class="box">
+			Aside
+		</aside>
+	</main>
+
+	<footer class="box">
+		Footer
+	</footer>
+	
+</body>
+</html>

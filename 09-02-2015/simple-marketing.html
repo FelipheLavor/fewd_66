@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marketing</title>
+	<style>
+
+		* {
+			box-sizing:border-box;	
+			font-family: helvetica,sans-serif;
+			letter-spacing: -0.5px;	
+		}
+		
+		h1{
+			margin-left: 140px;
+		}
+
+		header,
+		footer {
+			background-color: #cecece; 
+			height: 160px;
+			margin: 15px 140px 15px 140px;
+			padding: 10px;
+			border: 1px solid #777777;			
+		}
+
+		article{
+			background-color: #cecece;
+			padding: 10px;
+			border: 1px solid #777777;
+			display:flex;
+			align-items:center;		
+			justify-content:center;	
+		}
+
+		.primary,
+		.secondary {
+			display:flex;
+			justify-content:space-between;
+			height: 220px;
+			margin: 15px 0px 15px 0px;			
+		}
+
+		.primary article {
+			width: calc(50% - 10px);			
+		}
+
+		.secondary article {
+			width: calc(100%/3 - 10px);
+		}
+		
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Marketing</h1>
+
+	<header>
+		Header
+	</header>
+
+	<main class="primary">
+		<article>Article 1</article>
+		<article>Article 2</article>		
+	</main>
+
+	<section class="secondary">
+		<article>Article 4</article>
+		<article>Article 5</article>
+		<article>Article 6</article>			
+	</section>
+
+	<footer>
+		Footer
+	</footer>
+	
+</body>
+</html>

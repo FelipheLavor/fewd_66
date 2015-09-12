@@ -1,0 +1,46 @@
+
+.img1 {
+	background-image: url('https://placeimg.com/1000/1000/nature');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	width: 100%;
+	height:700px;
+}
+
+.forest{
+	max-width: 700px;
+}
+
+.forest img{
+	width: 100%;
+}
+
+.footer {
+	background-color: #666666;
+	height: 40px;
+	margin-top: 40px auto 0px auto;
+	width: 100%;
+}
+
+
+.footer ul{
+	text-align: center;
+	color: #ffffff;
+	font-family: helvetica, arial;
+	font-size: 14px;	
+ 	list-style-type: none;
+ 	margin: 0px auto;
+ 	padding: 10px;
+ 	display: table;
+ 	overflow: hidden;
+}
+
+.footer li{
+	float: left;
+	padding:2px;
+	width: 150px;
+  	display: inline;
+ 	margin-left: auto ;
+    margin-right: auto ;
+}

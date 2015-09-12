@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Float Layout: Marketing with Nav</title>
+<style>
+
+		* {
+			box-sizing:border-box;	
+			font-family: helvetica,sans-serif;
+			letter-spacing: -0.5px;	
+		}
+
+		header{
+			display: flex;
+			justify-content: space-between;
+			align-items:center;
+		}
+
+		nav{
+			display:flex;
+			justify-content:space-between;
+			align-items:center;
+			margin: 15px 0 15px 0;						
+		}
+
+		a{
+			background-color: #cecece; 	
+			height: 80px;
+			margin:10px;	
+			padding: 30px;		
+		}
+
+
+		h1 {
+			background-color: #cecece; 
+			height: 160px;
+			width:10%;
+		}
+
+		.logo{
+			align-items:center;				
+		}
+		
+
+		footer {
+			background-color: #cecece; 
+			height: 160px;
+			margin: 15px 0px 15px 0px;
+			padding: 10px;
+			border: 1px solid #777777;			
+		}
+
+		article{
+			background-color: #cecece;
+			padding: 10px;
+			border: 1px solid #777777;
+			display:flex;
+			align-items:center;		
+			justify-content:center;	
+		}
+
+		.primary,
+		.secondary {
+			display:flex;
+			justify-content:space-between;
+			height: 220px;
+			margin: 15px 0px 15px 0px;			
+		}
+
+		.primary article {
+			width:100%;			
+		}
+
+		.secondary article {
+			width: calc(100%/3 - 10px);
+		}
+		
+	</style>
+
+</head>
+<body>
+		
+	<header>
+		<h1 class="logo">Logo</h1>
+		<nav>
+			<a href="#">Nav A</a>
+			<a href="#">Nav B</a>
+			<a href="#">Nav C</a>
+			<a href="#">Nav D</a>
+		</nav>
+	</header>
+
+	<main class="primary">
+		<article>One</article>
+	</main>
+
+	<section class="secondary">
+		<article>One</article>
+		<article>Two</article>
+		<article>Three</article>
+	</section>
+	
+	<footer>
+		Footer
+	</footer>
+
+</body>
+</html>
