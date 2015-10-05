@@ -1,0 +1,131 @@
+
+body {
+	background-color: #fafafa;
+    border:20px solid white;   
+}
+
+p {
+	font-family: georgia;
+}
+
+h2, h3 {
+	font-family:Lato, sans-serif;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.wrap {
+	margin: auto;
+    max-width: 1260px;
+    width: 75%;		
+} 
+
+/*.center_screen {
+	margin: auto;
+    max-width: 1260px;
+    padding: 0 40px;
+    width: 80%;
+}*/
+
+.header {
+    border-bottom: 5px solid #000;
+}
+
+
+.logo {
+	font-size: 100px;
+	font-family: 'Lora', serif;
+	margin-bottom: 20px;
+}
+
+.tagline {
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+
+.wrap_concepts {
+	padding:10px 0 15px 0;
+}
+
+.concepts_list {
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	flex-wrap:wrap;	
+    border-bottom: 5px solid #000;
+    padding-bottom: 30px;	
+}
+
+.concepts_list h2{
+	width: 100%;
+	display:block;
+}
+
+.concept {
+	width: 20%;
+	margin-right: 10px;
+}
+
+.concept ul{
+	padding: 0;
+	list-style-type: square;
+}
+
+.interactive{
+	border-bottom: 5px solid #000;
+    padding-bottom: 60px;
+}
+
+.container_interactive {
+	height: 650px;
+	display:flex;
+	box-shadow: 1px 1px 5px #bfbfbf;	
+}
+
+.buttons {
+	width:20%;
+	background-color: #333333;	
+	flex-grow:1;
+	padding:20px;
+}
+
+.buttons a{
+	font-family: font-family: 'Lato', sans-serif;	
+	color: #bfbfbf;
+	font-size: 14px;
+	border-bottom: 1px solid #5A5959;
+	padding: 20px 0;
+	margin:0;
+	display: block;
+/*	text-transform: uppercase;*/	
+	font-weight: 300;
+	transition: color 0.5s ease;
+	letter-spacing: 0.1em;
+}
+
+.buttons a:hover{
+	color: #fff;
+}
+
+.text {
+	background-color: #ffffff;
+	width: 80%;
+	flex-grow:1;
+	overflow: scroll;		
+}
+
+.text p {
+	width:30%;
+	margin:40px auto;
+	font-size:12px;
+	color:#212121;
+	line-height: 40px;
+	font-family: georgia;
+	line-height: 1.6;
+
+}
+
+.examples img{
+    width: 100%;	
+}
+
